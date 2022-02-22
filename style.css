@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    background: url('images/pattern-background-desktop.svg');
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    max-width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+
+.main img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    
+}
+
+.main-content{
+    text-align: center;
+    padding: 35px 30px;
+    background-color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.main-content h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* font-size: 25px; */
+}
+
+
+.main-content p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+
+.main-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    width: 85%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.main-price .price{
+    display: flex;
+}
+
+.main-price .price img{
+    width: 40px;
+}
+
+.price-inside{
+    padding: 0px 10px;
+}
+
+.price-inside h2{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+
+}
+
+.price-inside p{
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    
+}
+
+
+.change{
+    padding: 0px 10px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.button{
+    padding: 40px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.proceed{
+    width: 85%;
+    margin: auto;
+    background-color: hsl(245, 75%, 52%);
+    padding: 13px 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.proceed a{
+    color: hsl(225, 100%, 98%);
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.cancel{
+    margin: auto;
+    width: 85%;
+    background-color: transparent;
+    padding: 13px 0px;
+    border-radius: 10px;
+    
+}
+
+
+.cancel a{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
